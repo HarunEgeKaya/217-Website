@@ -31,7 +31,9 @@
 
         .photo {
             position: relative;
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
             margin: 20px;
             text-align: center;
         }
@@ -40,11 +42,12 @@
             width: 100%;
             max-width: 300px;
             height: auto;
-            transition: opacity 0.3s;
+            transition: opacity 0.3s, filter 0.3s;
         }
 
         .photo:hover img {
             opacity: 0.6;
+            filter: grayscale(100%);
         }
 
         .photo .text {
@@ -56,6 +59,9 @@
             font-size: 20px;
             opacity: 0;
             transition: opacity 0.3s;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
         }
 
         .photo:hover .text {
@@ -64,16 +70,17 @@
 
         .download-button {
             display: block;
-            width: 100%;
+            width: 90%; 
             padding: 10px;
             margin-top: 10px;
             text-align: center;
-            background-color: #f44336;
+            background-color: #ff7300;
             color: white;
             border: none;
             cursor: pointer;
             font-size: 16px;
             border-radius: 5px;
+            text-decoration: none; 
         }
 
         .download-button:hover {
@@ -107,21 +114,21 @@
             <div class="photo">
                 <img src="https://api.telegram.org/file/bot7312465158:AAGEO2ZBGtoIs-VxTcskMF7DS9VdLZq7Aao/photos/file_21.jpg" alt="217.aep dark cc">
                 <div class="text">217.aep dark cc</div>
-                <button class="download-button">İndir</button>
+                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1172978136368021614/217.aep_dark_cc.ffx?ex=675dd984&is=675c8804&hm=4b31bde84443f344bb80704c9b82297d0ebd439ba7abcd11e9e199836fde8e42&" class="download-button" download>İndir</a>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="sadas.jpg" alt="Fotoğraf 2">
-                <div class="text">Fotoğraf 2</div>
-                <button class="download-button">İndir</button>
+                <img src="https://api.telegram.org/file/bot7312465158:AAGEO2ZBGtoIs-VxTcskMF7DS9VdLZq7Aao/photos/file_22.jpg" alt="217.aep transparent mask">
+                <div class="text">217.aep transparent mask</div>
+                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1154444539772293172/217_transparent_mask.ffx?ex=675da942&is=675c57c2&hm=25f56180005055403878a342b693755978fe53738bcead2848f02f19d8d6c3a1&" class="download-button" download>İndir</a>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="sadas.jpg" alt="Fotoğraf 3">
-                <div class="text">Fotoğraf 3</div>
-                <button class="download-button">İndir</button>
+                <img src="https://api.telegram.org/file/bot7312465158:AAGEO2ZBGtoIs-VxTcskMF7DS9VdLZq7Aao/photos/file_23.jpg" alt="217.aep horizonal">
+                <div class="text">217.aep horizonal</div>
+                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1317224430082199572/217.aep_horizonal.ffx?ex=675de858&is=675c96d8&hm=c8e69d6c64f9e5229f2762c799d436bb46fa7a4d26c8aba5f3e4ce9ae877f42f&" class="download-button" download>İndir</a>
             </div>
         </div>
     </div>
