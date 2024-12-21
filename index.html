@@ -13,10 +13,11 @@
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
 
+        
         header {
             background: linear-gradient(to top, rgb(255, 81, 0), rgb(255, 123, 0));
             color: #fff;
-            padding: 10px 0;
+            padding: 0px;
             text-align: center;
         }
 
@@ -26,7 +27,7 @@
         }
 
         header h1 + h1 {
-            margin-top: 5px;
+            margin-top: 2px;
             font-size: 14px;
         }
 
@@ -56,7 +57,7 @@
 
         .photo .text {
             position: absolute;
-            top: 50%;
+            top: 45%;
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
@@ -107,53 +108,116 @@
         header + .button-container {
             margin-top: 20px;
         }
+        nav {
+            background-color: #333;
+            padding: 7px;
+        }
+
+        .tabs {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tabs li {
+            margin: 0 15px;
+        }
+
+        .tabs a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .tabs a:hover {
+            background: linear-gradient(to top, rgb(255, 81, 0), rgb(255, 123, 0));
+            border-radius: 5px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-link.active {
+            color: #ff7300;
+            font-weight: bold;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+
     </style>
     
 </head>
 <body>
 
     <header>
-        <h1>CC and FFX</h1>
+        <h1><a href="test.html" style="color: #fff; text-decoration: none;">CC and FFX</a></h1>
         <h1>Designed by 217</h1>
+    <br>
+    <nav>
+        <nav>
+            <ul class="tabs">
+                <li><a href="cc.html" class="tab-link" data-tab="cc">CC'ler</a></li>
+                <li><a href="#" class="tab-link" data-tab="mask">Mask'lar</a></li>
+                <li><a href="#" class="tab-link" data-tab="shake">Shake'ler</a></li>
+                <li><a href="#" class="tab-link" data-tab="ffx">Diğer ffx'ler</a></li>
+            </ul>
     </header>
 
     <div class="button-container">
         <div class="photo-container">
             <div class="photo">
-                <img src="https://217aep.com.tr/image1.jfif" alt="217.aep dark cc">
-                <div class="text">217.aep dark cc</div>
-                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1172978136368021614/217.aep_dark_cc.ffx?ex=675dd984&is=675c8804&hm=4b31bde84443f344bb80704c9b82297d0ebd439ba7abcd11e9e199836fde8e42&" class="download-button" download>İndir</a>
+                    <div class="cc">
+                        <img src="https://217aep.com.tr/image1.jfif" alt="217.aep dark cc">
+                        <div class="text">217.aep dark cc</div>
+                        <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1172978136368021614/217.aep_dark_cc.ffx?ex=675dd984&is=675c8804&hm=4b31bde84443f344bb80704c9b82297d0ebd439ba7abcd11e9e199836fde8e42&" class="download-button" download>İndir</a>
+                    </div>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="https://217aep.com.tr/image2.jfif" alt="217.aep transparent mask">
-                <div class="text">217.aep transparent mask</div>
-                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1154444539772293172/217_transparent_mask.ffx?ex=675da942&is=675c57c2&hm=25f56180005055403878a342b693755978fe53738bcead2848f02f19d8d6c3a1&" class="download-button" download>İndir</a>
+                    <div class="mask">
+                        <img src="https://217aep.com.tr/image2.jfif" alt="217.aep transparent mask">
+                        <div class="text">217.aep transparent mask</div>
+                        <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1154444539772293172/217_transparent_mask.ffx?ex=675da942&is=675c57c2&hm=25f56180005055403878a342b693755978fe53738bcead2848f02f19d8d6c3a1&" class="download-button" download>İndir</a>
+                    </div>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="https://217aep.com.tr/image3.jfif" alt="217.aep horizonal">
-                <div class="text">217.aep horizonal</div>
-                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1317224430082199572/217.aep_horizonal.ffx?ex=675de858&is=675c96d8&hm=c8e69d6c64f9e5229f2762c799d436bb46fa7a4d26c8aba5f3e4ce9ae877f42f&" class="download-button" download>İndir</a>
+                <div class="shake">
+                    <img src="https://217aep.com.tr/image3.jfif" alt="217.aep horizonal">
+                    <div class="text">217.aep horizonal</div>
+                    <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1317224430082199572/217.aep_horizonal.ffx?ex=675de858&is=675c96d8&hm=c8e69d6c64f9e5229f2762c799d436bb46fa7a4d26c8aba5f3e4ce9ae877f42f&" class="download-button" download>İndir</a>
+                </div>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="https://217aep.com.tr/image4.jfif" alt="Blue cc">
-                <div class="text">Blue cc</div>
-                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1317467376312385566/blue_cc.ffx?ex=675eca9b&is=675d791b&hm=473bce997ad992631abd8c568bb1314a8b1a95b8cefca61e01e7ed7d770400c8&" class="download-button" download>İndir</a>
+                <div class="cc">
+                    <img src="https://217aep.com.tr/image4.jfif" alt="Blue cc">
+                    <div class="text">Blue cc</div>
+                    <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1317467376312385566/blue_cc.ffx?ex=675eca9b&is=675d791b&hm=473bce997ad992631abd8c568bb1314a8b1a95b8cefca61e01e7ed7d770400c8&" class="download-button" download>İndir</a>
+                </div>
             </div>
         </div>
         <div class="photo-container">
             <div class="photo">
-                <img src="https://217aep.com.tr/image5.jfif" alt="Lava mask">
-                <div class="text">Lava mask</div>
-                <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1154444290974560336/217_aep_lava_mask.ffx?ex=675e51c7&is=675d0047&hm=aa37512682265534e5747014614df3e50c32d601be84cb16bc45db77d5acac60&" class="download-button" download>İndir</a>
+                    <div class="mask">
+                    <img src="https://217aep.com.tr/image5.jfif" alt="Lava mask">
+                    <div class="text">Lava mask</div>
+                    <a href="https://cdn.discordapp.com/attachments/1131207727562113075/1154444290974560336/217_aep_lava_mask.ffx?ex=675e51c7&is=675d0047&hm=aa37512682265534e5747014614df3e50c32d601be84cb16bc45db77d5acac60&" class="download-button" download>İndir</a>
+            </div>
             </div>
         </div>
     </div>
+    
 
     <script>
         const downloadButtons = document.querySelectorAll('.download-button');
