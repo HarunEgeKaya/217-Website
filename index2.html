@@ -162,12 +162,15 @@
 <div id="photo-container" class="button-container"></div>
 
 <script>
-    // Function to fetch the JSON data from the server
+    let allData = [];
+
+    // Fetch the JSON data from the server
     async function fetchData() {
         try {
             const response = await fetch('https://217aep.com.tr/list.json');
             const data = await response.json();
-            displayCards(data);
+            allData = data; // Store the data for later use
+            displayCards(data); // Display the cards
         } catch (error) {
             console.error('Error fetching the data:', error);
         }
@@ -195,7 +198,7 @@
         });
     }
 
-    // Event listener for filtering cards by category
+    // Event listener for filtering cards by category and partial name match
     document.querySelectorAll('.tab-link').forEach(tab => {
         tab.addEventListener('click', function (event) {
             event.preventDefault();
@@ -204,20 +207,17 @@
         });
     });
 
-    // Function to filter cards by category
+    // Function to filter cards by category and partial name match
     function filterCards(category) {
-        const allCards = document.querySelectorAll('.photo-container');
-        allCards.forEach(card => {
-            if (card.querySelector('.photo .' + category) || category === '') {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
+        const filteredData = allData.filter(item => {
+            return item.name.toLowerCase().includes(category.toLowerCase()) || category === '';
         });
+        displayCards(filteredData); // Display the filtered cards
     }
 
     // Fetch and display the data when the page loads
     fetchData();
 </script>
+
 </body>
 </html>
