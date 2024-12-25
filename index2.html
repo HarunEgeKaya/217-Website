@@ -19,6 +19,7 @@
             margin: 0;
             padding: 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
         }
 
         header {
@@ -26,6 +27,7 @@
             color: #fff;
             text-align: center;
             padding: 0px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
         }
 
         header h1 {
@@ -40,6 +42,7 @@
             display: flex;
             justify-content: center;
             background: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
         }
 
         nav ul li {
@@ -56,6 +59,7 @@
         nav ul li a:hover {
             background: linear-gradient(to top, rgb(255, 81, 0), rgb(255, 123, 0));
             border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Hoverda gölge */
         }
 
         #photo-container {
@@ -74,7 +78,7 @@
             text-align: center;
             background: #fff;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
             padding: 10px;
         }
 
@@ -82,6 +86,7 @@
             width: 100%;
             border-radius: 10px;
             transition: transform 0.3s ease, opacity 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Görsellerde hafif gölge */
         }
 
         .photo:hover img {
@@ -100,17 +105,32 @@
             border-radius: 5px;
             font-weight: bold;
             transition: background 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Butonlarda hafif gölge */
         }
 
         .photo .download-button:hover {
             background: rgb(255, 123, 0);
         }
+
+        .linkbase {
+            text-decoration: none; /* Alt çizgi kaldırılır */
+            transition: transform 0.3s ease, color 0.3s ease; /* Hem büyüme hem de renk geçişi */
+            color: white; /* Bağlantı rengi beyaz olacak */
+            font-size: 25px; /* Yazı boyutu */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bağlantıya hafif gölge */
+        }
+
+        .linkbase:hover {
+            transform: scale(1.1); /* Üzerine gelindiğinde %10 büyür */
+            color: #333; /* Hover durumunda renk değişimi */
+        }
+
     </style>
 </head>
 <body>
 
 <header>
-    <h1>CC and FFX</h1>
+    <a href="index2.html" class="linkbase">CC and FFX</a>
     <h1 style="font-size: 12px; margin: 0;">Designed by 217</h1>
     <br>
     <nav>
