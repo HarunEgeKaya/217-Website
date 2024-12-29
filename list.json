@@ -1,74 +1,20 @@
 [
     {
-        "resimURL": "https://217aep.com.tr/image1.jfif",
-        "name": "217.aep dark cc",
-        "downloadURL": "https://217aep.com.tr/217aepdarkccupdate.ffx"
-        "imageURL": "https://217aep.com.tr/image1.jfif",
-        "downloadURL": "https://217aep.com.tr/217aepdarkccupdate.ffx",
+        "name": "217.aep Dark CC",
+        "imageURL": "https://217aep.com.tr/image1.jpg",
+        "downloadURL": "https://217aep.com.tr/217aep-dark-cc.ffx",
         "category": "cc"
     },
     {
-        "resimURL": "https://217aep.com.tr/image2.jfif",
-        "name": "217.aep transparent mask",
-        "downloadURL": "https://217aep.com.tr/217transparentmask.ffx"
-        "imageURL": "https://217aep.com.tr/image2.jfif",
-        "downloadURL": "https://217aep.com.tr/217transparentmask.ffx",
+        "name": "217.aep Transparent Mask",
+        "imageURL": "https://217aep.com.tr/image2.jpg",
+        "downloadURL": "https://217aep.com.tr/217aep-transparent-mask.ffx",
         "category": "mask"
     },
     {
-        "resimURL": "https://217aep.com.tr/image3.jfif",
-        "name": "217.aep horizonal",
-        "downloadURL": "https://217aep.com.tr/217aephorizonal.ffx"
-        "imageURL": "https://217aep.com.tr/image3.jfif",
-        "downloadURL": "https://217aep.com.tr/217aephorizonal.ffx",
+        "name": "217.aep Horizontal",
+        "imageURL": "https://217aep.com.tr/image3.jpg",
+        "downloadURL": "https://217aep.com.tr/217aep-horizontal.ffx",
         "category": "shake"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image4.jfif",
-        "name": "Blue cc",
-        "downloadURL": "https://217aep.com.tr/bluecc.ffx"
-        "imageURL": "https://217aep.com.tr/image4.jfif",
-        "downloadURL": "https://217aep.com.tr/bluecc.ffx",
-        "category": "cc"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image5.jfif",
-        "name": "217.aep lava mask",
-        "downloadURL": "https://217aep.com.tr/217aeplavamask.ffx"
-        "imageURL": "https://217aep.com.tr/image5.jfif",
-        "downloadURL": "https://217aep.com.tr/217aeplavamask.ffx",
-        "category": "mask"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image6.jpg",
-        "name": "Remy main cc",
-        "downloadURL": "https://217aep.com.tr/remymaincc.ffx"
-        "imageURL": "https://217aep.com.tr/image6.jpg",
-        "downloadURL": "https://217aep.com.tr/remymaincc.ffx",
-        "category": "mask"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image7.jpg",
-        "name": "Tv damage",
-        "downloadURL": "https://217aep.com.tr/tvdamage.ffx"
-        "imageURL": "https://217aep.com.tr/image7.jpg",
-        "downloadURL": "https://217aep.com.tr/tvdamage.ffx",
-        "category": "ffx"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image8.jpg",
-        "name": "217.aep red old liquid",
-        "downloadURL": "https://217aep.com.tr/217aepredoldliquid.ffx"
-        "imageURL": "https://217aep.com.tr/image8.jpg",
-        "downloadURL": "https://217aep.com.tr/217aepredoldliquid.ffx",
-        "category": "ffx"
-    },
-    {
-        "resimURL": "https://217aep.com.tr/image9.jpg",
-        "name": "217.aep light cc",
-        "downloadURL": "https://217aep.com.tr/217aeplightcc.ffx"
-        "imageURL": "https://217aep.com.tr/image9.jpg",
-        "downloadURL": "https://217aep.com.tr/217aeplightcc.ffx",
-        "category": "cc"
     }
 ]
