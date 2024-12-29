@@ -66,9 +66,15 @@
         "category": "mask"
     },
     {
-        "name": "217 s_edge text settings",
+        "name": "217.aep s_edge text settings",
         "imageURL": "https://217aep.com.tr/image12.jpg",
         "downloadURL": "https://217aep.com.tr/sedgetextsettings217.ffx",
+        "category": "ffx"
+    },
+    {
+        "name": "217.aep new text settings",
+        "imageURL": "https://217aep.com.tr/image13.jpg",
+        "downloadURL": "https://217aep.com.tr/217aepnewtextsettings.ffx",
         "category": "ffx"
     }
 
