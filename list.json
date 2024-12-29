@@ -1,20 +1,56 @@
 [
     {
-        "name": "217.aep Dark CC",
-        "imageURL": "https://217aep.com.tr/image1.jpg",
-        "downloadURL": "https://217aep.com.tr/217aep-dark-cc.ffx",
+        "name": "217.aep dark cc",
+        "imageURL": "https://217aep.com.tr/image1.jfif",
+        "downloadURL": "https://217aep.com.tr/217aepdarkccupdate.ffx",
         "category": "cc"
     },
     {
-        "name": "217.aep Transparent Mask",
-        "imageURL": "https://217aep.com.tr/image2.jpg",
-        "downloadURL": "https://217aep.com.tr/217aep-transparent-mask.ffx",
+        "name": "217.aep transparent mask",
+        "imageURL": "https://217aep.com.tr/image2.jfif",
+        "downloadURL": "https://217aep.com.tr/217transparentmask.ffx",
         "category": "mask"
     },
     {
-        "name": "217.aep Horizontal",
-        "imageURL": "https://217aep.com.tr/image3.jpg",
-        "downloadURL": "https://217aep.com.tr/217aep-horizontal.ffx",
+        "name": "217.aep horizonal",
+        "imageURL": "https://217aep.com.tr/image3.jfif",
+        "downloadURL": "https://217aep.com.tr/217aephorizonal.ffx",
         "category": "shake"
+    },
+    {
+        "name": "Blue cc",
+        "imageURL": "https://217aep.com.tr/image4.jfif",
+        "downloadURL": "https://217aep.com.tr/bluecc.ffx",
+        "category": "cc"
+    },
+    {
+        "name": "217.aep lava mask",
+        "imageURL": "https://217aep.com.tr/image5.jfif",
+        "downloadURL": "https://217aep.com.tr/217aeplavamask.ffx",
+        "category": "mask"
+    },
+    {
+        "name": "Remy main cc",
+        "imageURL": "https://217aep.com.tr/image6.jpg",
+        "downloadURL": "https://217aep.com.tr/remymaincc.ffx",
+        "category": "mask"
     }
-]
+    {
+        "name": "Tv damage",
+        "imageURL": "https://217aep.com.tr/image7.jpg",
+        "downloadURL": "https://217aep.com.tr/tvdamage.ffx",
+        "category": "ffx"
+    },
+    {
+        "name": "217.aep red old liquid",
+        "imageURL": "https://217aep.com.tr/image8.jpg",
+        "downloadURL": "https://217aep.com.tr/217aepredoldliquid.ffx",
+        "category": "ffx"
+    },
+    {
+        "name": "217.aep light cc",
+        "imageURL": "https://217aep.com.tr/image9.jpg",
+        "downloadURL": "https://217aep.com.tr/217aeplightcc.ffx",
+        "category": "cc"
+    }
+] 
