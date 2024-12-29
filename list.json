@@ -57,7 +57,15 @@
         "name": "217.aep mask",
         "imageURL": "https://217aep.com.tr/image10.jpg",
         "downloadURL": "https://217aep.com.tr/217mask.ffx",
+        "category": "cc"
+    },
+    {
+        "name": "217.aep wave fire mask update",
+        "imageURL": "https://217aep.com.tr/image11.jpg",
+        "downloadURL": "https://217aep.com.tr/217aepwavefiremaskupdate.ffx",
         "category": "mask"
     }
 
 ] 
+
+
