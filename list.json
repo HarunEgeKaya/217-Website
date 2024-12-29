@@ -64,6 +64,12 @@
         "imageURL": "https://217aep.com.tr/image11.jpg",
         "downloadURL": "https://217aep.com.tr/217aepwavefiremaskupdate.ffx",
         "category": "mask"
+    },
+    {
+        "name": "217 s_edge text settings",
+        "imageURL": "https://217aep.com.tr/image12.jpg",
+        "downloadURL": "https://217aep.com.tr/sedgetextsettings217.ffx",
+        "category": "ffx"
     }
 
 ] 
