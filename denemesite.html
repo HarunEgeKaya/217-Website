@@ -58,9 +58,10 @@ nav ul:first-of-type {
 
 nav ul:last-of-type {
     margin: 0 auto; /* Ortalamayı korur */
-    transform: translateX(-20px); /* -20px sola kaydırır */
     display: flex;
-    justify-content: center; /* Grup öğelerini ortalamaya devam eder */
+    justify-content: center; /* Grup öğelerini merkezler */
+    position: relative; /* Konum ayarlamak için gerekli */
+    left: -20px; /* Menü grubunu manuel olarak sola kaydırır */
 }
 
 nav ul li {
