@@ -153,6 +153,20 @@
             transform: translate(-50%, -50%) scale(1.1); /* Hoverda daha belirgin hale gelir */
         }
 
+        .video-style {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            transition: opacity 0.3s, filter 0.3s;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }
+
+        .photo:hover .video-style {
+            opacity: 0.6;
+            filter: grayscale(100%);
+        }
+
     </style>
 </head>
 <body>
@@ -197,7 +211,7 @@
 
             if (item.type === "video") {
                 card.innerHTML = `
-                     <video autoplay loop muted controls>
+                     <video autoplay loop muted class="video-style" controls>
                         <source src="${item.videoURL}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
