@@ -197,7 +197,7 @@
 
             if (item.type === "video") {
                 card.innerHTML = `
-                    <video controls>
+                     <video autoplay loop muted controls>
                         <source src="${item.videoURL}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
