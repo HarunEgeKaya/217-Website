@@ -1,7 +1,7 @@
 [
     {
         "name": "217.aep dark cc",
-        "imageURL": "https://217aep.com.tr/image1.jfif",
+        "imageURL": "https://217aep.com.tr/217dark.jpeg",
         "downloadURL": "https://217aep.com.tr/217aepdarkccupdate.ffx",
         "category": "cc",
         "type": "effect"
@@ -22,7 +22,7 @@
     },
     {
         "name": "Blue cc",
-        "imageURL": "https://217aep.com.tr/image4.jfif",
+        "imageURL": "https://217aep.com.tr/bluecc.jpg",
         "downloadURL": "https://217aep.com.tr/bluecc.ffx",
         "category": "cc",
         "type": "effect"
@@ -36,7 +36,7 @@
     },
     {
         "name": "Remy main cc",
-        "imageURL": "https://217aep.com.tr/image6.jpg",
+        "imageURL": "https://217aep.com.tr/remymain.jpg",
         "downloadURL": "https://217aep.com.tr/remymaincc.ffx",
         "category": "cc",
         "type": "effect"
@@ -57,7 +57,7 @@
     },
     {
         "name": "217.aep light cc",
-        "imageURL": "https://217aep.com.tr/image9.jpg",
+        "imageURL": "https://217aep.com.tr/217light.jpg",
         "downloadURL": "https://217aep.com.tr/217aeplightcc.ffx",
         "category": "cc",
         "type": "effect"
@@ -99,7 +99,7 @@
     },
     {
         "name": "vex W dark cc",
-        "imageURL": "https://217aep.com.tr/image15.jpg",
+        "imageURL": "https://217aep.com.tr/vexwdark.jpg",
         "downloadURL": "https://217aep.com.tr/vexWdarkcc.ffx",
         "category": "cc",
         "type": "effect"
