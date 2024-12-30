@@ -39,7 +39,8 @@
         
         nav {
     display: flex;
-    align-items: center;
+    align-items: center; /* Dikey merkezleme */
+    justify-content: space-between; /* Grup aralarını düzenle */
     background: #333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -52,11 +53,13 @@ nav ul {
 }
 
 nav ul:first-of-type {
-    margin-right: auto; /* İlk grup (Hakkımda) sola yaslanır */
+    margin-right: auto; /* "Hakkımda" sekmesi sola yaslanır */
 }
 
 nav ul:last-of-type {
-    margin: 0 auto; /* İkinci grup (diğer menüler) ortalanır */
+    margin: 0 auto; /* İkinci grup (diğer menüler) tam ortalanır */
+    justify-content: center;
+    flex-grow: 1; /* Ortada esneklik sağlar */
 }
 
 nav ul li {
@@ -75,6 +78,7 @@ nav ul li a:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
         #photo-container {
             display: flex;
