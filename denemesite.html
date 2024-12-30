@@ -167,6 +167,19 @@
             filter: grayscale(100%);
         }
 
+        .video-style::-webkit-media-controls {
+            display: none !important;
+        }
+        
+        .video-style::-webkit-media-controls-panel {
+            display: none !important;
+        }
+        
+        .video-style {
+            pointer-events: none; /* Bu, video üzerindeki tıklamaları engeller */
+        }
+
+
     </style>
 </head>
 <body>
