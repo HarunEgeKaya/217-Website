@@ -57,9 +57,10 @@ nav ul:first-of-type {
 }
 
 nav ul:last-of-type {
-    margin: 0 auto; /* İkinci grup (diğer menüler) tam ortalanır */
-    justify-content: center;
-    flex-grow: 1; /* Ortada esneklik sağlar */
+    margin: 0 auto; /* Ortalamayı korur */
+    transform: translateX(-20px); /* -20px sola kaydırır */
+    display: flex;
+    justify-content: center; /* Grup öğelerini ortalamaya devam eder */
 }
 
 nav ul li {
