@@ -45,25 +45,28 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+nav {
+    display: flex;
+    align-items: center; /* Dikey merkezleme */
+    justify-content: space-between; /* Gruplar arasında alan bırakır */
+    background: #333;
+    padding: 10px 20px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px; /* Menü öğeleri arasında boşluk */
 }
 
 nav ul:first-of-type {
-    margin-right: auto; /* "Hakkımda" sekmesi sola yaslanır */
+    margin-right: auto; /* İlk grup sola yaslanır */
 }
 
 nav ul:last-of-type {
-    margin-left: -20px; /* Ortadan biraz daha sola kaydırır */
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 10px;
+    margin: 0 auto; /* İkinci grup ortalanır */
 }
 
 nav ul li a {
