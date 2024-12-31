@@ -103,5 +103,12 @@
         "downloadURL": "https://217aep.com.tr/vexWdarkcc.ffx",
         "category": "cc",
         "type": "effect"
+    },
+    {
+        "name": "217.aep bloody mask (added cc)",
+        "videoURL": "https://217aep.com.tr/217bloodymaskvideo.mp4",
+        "downloadURL": "https://217aep.com.tr/217aepbloodymask.ffx",
+        "category": "mask",
+        "type": "video"
     }
 ]
