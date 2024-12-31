@@ -14,9 +14,9 @@
         "type": "video"
     },
     {
-        "name": "217.aep horizonal",
-        "imageURL": "https://217aep.com.tr/image3.jfif",
-        "downloadURL": "https://217aep.com.tr/217aephorizonal.ffx",
+        "name": "217.aep horizontal",
+        "videoURL": "https://217aep.com.tr/217horizontalvideo.mp4",
+        "downloadURL": "https://217aep.com.tr/217aephorizontal.ffx",
         "category": "shake",
         "type": "effect"
     },
