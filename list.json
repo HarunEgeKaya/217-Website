@@ -110,5 +110,12 @@
         "downloadURL": "https://217aep.com.tr/217aepbloodymask.ffx",
         "category": "mask",
         "type": "video"
+    },
+    {
+        "name": "217.aep twirl mask (added cc)",
+        "videoURL": "https://217aep.com.tr/217twirlmaskvideo.mp4",
+        "downloadURL": "https://217aep.com.tr/217aeptwirlmask.ffx",
+        "category": "mask",
+        "type": "video"
     }
 ]
