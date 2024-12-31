@@ -117,5 +117,41 @@
         "downloadURL": "https://217aep.com.tr/217aeptwirlmask.ffx",
         "category": "mask",
         "type": "video"
+    },
+    {
+        "name": "217.aep new panning x sallantılı",
+        "videoURL": "https://217aep.com.tr/yenipannigvideo.mp4",
+        "downloadURL": "https://217aep.com.tr/yenipanningxsallatntlı.ffx",
+        "category": "ffx",
+        "type": "video"
+    },
+    {
+        "name": "217.aep hard shake v2 (low shake)",
+        "videoURL": "https://217aep.com.tr/hardshake2low.mp4",
+        "downloadURL": "https://217aep.com.tr/217aephardshakev2lowshake.ffx",
+        "category": "shake",
+        "type": "video"
+    },
+    {
+        "name": "217.aep hard shake",
+        "videoURL": "https://217aep.com.tr/hardshake.mp4",
+        "downloadURL": "https://217aep.com.tr/217aephardshake.ffx",
+        "category": "shake",
+        "type": "video"
+    },
+    {
+        "name": "217.aep hard shake v2 (low shake low amount)",
+        "videoURL": "https://217aep.com.tr/hardshake2low.mp4",
+        "downloadURL": "https://217aep.com.tr/217aephardshakev2lowshakelowamount.ffx",
+        "category": "shake",
+        "type": "video"
+    },
+    {
+        "name": "217.aep x shake and twitch",
+        "videoURL": "https://217aep.com.tr/xshakeandtwitch.mp4",
+        "downloadURL": "https://217aep.com.tr/217aepxshakeandtwitch.ffx",
+        "category": "shake",
+        "type": "video"
     }
+    
 ]
