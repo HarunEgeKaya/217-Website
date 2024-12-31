@@ -8,7 +8,7 @@
     },
     {
         "name": "217.aep transparent mask (added cc)",
-        "videoURL": "https://217aep.com.tr/217transparentmask.mp4",
+        "videoURL": "https://217aep.com.tr/217transparentmaskvideo.mp4",
         "downloadURL": "https://217aep.com.tr/217transparentmask.ffx",
         "category": "mask",
         "type": "video"
@@ -29,8 +29,8 @@
     },
     {
         "name": "217.aep lava mask (added cc)",
-        "videoURL": "https://217aep.com.tr/217aeplavamask.mp4",
-        "downloadURL": "https://217aep.com.tr/217aeplavamask.ffx",
+        "videoURL": "https://217aep.com.tr/217aeplavamaskvideo.mp4",
+        "downloadURL": "https://217aep.com.tr/217aeplavamaskupdate.ffx",
         "category": "mask",
         "type": "video"
     },
@@ -64,14 +64,14 @@
     },
     {
         "name": "217.aep mask (added cc)",
-        "imageURL": "https://217aep.com.tr/image10.jpg",
+        "videoURL": "https://217aep.com.tr/217maskvideo.mp4",
         "downloadURL": "https://217aep.com.tr/217mask.ffx",
         "category": "mask",
-        "type": "effect"
+        "type": "video"
     },
     {
         "name": "217.aep wave fire mask update (added cc)",
-        "videoURL": "https://217aep.com.tr/217aepwavefiremaskupdate.mp4",
+        "videoURL": "https://217aep.com.tr/217wavefiremaskvideo.mp4",
         "downloadURL": "https://217aep.com.tr/217aepwavefiremaskupdate.ffx",
         "category": "mask",
         "type": "video"
@@ -92,7 +92,7 @@
     },
     {
         "name": "217.aep rainbow mask (added cc)",
-        "videoURL": "https://217aep.com.tr/217aeprainbowmask.mp4",
+        "videoURL": "https://217aep.com.tr/217rainbowmaskvideo.mp4",
         "downloadURL": "https://217aep.com.tr/217aeprainbowmask.ffx",
         "category": "mask",
         "type": "video"
