@@ -19,7 +19,6 @@
             margin: 0;
             padding: 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            box-shadow: none;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,18 +26,14 @@
             flex-direction: column;
         }
 
-        .hakkimda {
-            text-align: center; 
-            padding: 20px; 
-        }
-        
-        .hakkimda p {
-            border: 4px solid rgb(255, 123, 0);
+        .content {
+            border: 4px solid rgb(255, 123, 0); /* Tüm yazıların etrafında çerçeve */
             border-radius: 10px;
-            padding: 10px;
-            display: inline-block;
+            padding: 30px;
+            max-width: 800px;
             text-align: center;
-            margin: 5px 0;
+            background-color: white; /* Arka plan rengini beyaz yaparak çerçeveyle daha belirgin hale getirdim */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge ekledim */
         }
 
         .footer {
@@ -56,37 +51,32 @@
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             margin: 0;
         }
+
+        .content p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
     <h1 style="color:rgb(255, 123, 0); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Hakkımda</h1>
     
-    <div class="hakkimda" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-        <p>After effects için kullanılan ffx dosyaları ve daha fazlasını tek bir yerde bulundurmak için bu websiteyi açtım. Burada bulunan dosyalar özellikle futbol editleri içindir. <br>
-            Siteyi her geçen gün güncelleştirmeye çalışıyorum. Sitede bulunan bir şeyden rahatsız olursanız bana discord üzerinden veya mail yoluyla bana ulaşabilirsiniz. <br>
-            Aynı şekilde sitedeki bir şeyi kaldırmak
-            isterseniz, discord üzerinden veya mail yoluyla bana ulaşabilirsiniz. Discord adresim: #harunege217 Mail adresim: hegek217@gmail.com
-            <br>
-            <br>
-            I created this website to store .ffx files used in After Effects and more in one place. The files here are specifically for football edits. <br>
-I try to update the site every day. If anything on the site bothers you, you can reach out to me via Discord or email. <br>
-If you'd like something to be removed from the site, feel free to contact me through Discord or email. My Discord address: #harunege217 Email address: hegek217@gmail.com
-            <br>
-            <br>
-            Kullanacağız effectlerde rengini değiştirebilirsiniz. İsterseniz üstünde bulunan effectlerden veya s_hue, hue ve diğer renk araçlarıyla oynayabilirsiniz. Effectlerin merkez noktalarını ayarlayın
-            ve kullandığınız effectlerde positon<br>
-            değiştirebilirsiniz veya ayarları ile oynayıp videonuza uygun hale getirebilirsiniz. (Yavaşlatmak veya hızlandırmak gibi) Ben ffx dosyasını apply animation yaptım, <br>
-            
-            tüm işlem bitti niye böyle gözüküyor demeden önce lütfen kendi hayal gücünüzü kullanın.
+    <div class="content">
+        <p>After effects için kullanılan ffx dosyaları ve daha fazlasını tek bir yerde bulundurmak için bu websiteyi açtım. Burada bulunan dosyalar özellikle futbol editleri içindir. Siteyi her geçen gün güncelleştirmeye çalışıyorum. Sitede bulunan bir şeyden rahatsız olursanız bana discord üzerinden veya mail yoluyla bana ulaşabilirsiniz.</p>
+        
+        <p>Aynı şekilde sitedeki bir şeyi kaldırmak isterseniz, discord üzerinden veya mail yoluyla bana ulaşabilirsiniz. Discord adresim: #harunege217 Mail adresim: hegek217@gmail.com</p>
+        
+        <p style="color: rgb(255, 123, 0);">I created this website to store .ffx files used in After Effects and more in one place. The files here are specifically for football edits. I try to update the site every day. If anything on the site bothers you, you can reach out to me via Discord or email.</p>
+        
+        <p style="color: rgb(255, 123, 0);">If you'd like something to be removed from the site, feel free to contact me through Discord or email. My Discord address: #harunege217 Email address: hegek217@gmail.com</p>
+        
+        <p>Kullanacağız effectlerde rengini değiştirebilirsiniz. İsterseniz üstünde bulunan effectlerden veya s_hue, hue ve diğer renk araçlarıyla oynayabilirsiniz. Effectlerin merkez noktalarını ayarlayın ve kullandığınız effectlerde positon değiştirebilirsiniz veya ayarları ile oynayıp videonuza uygun hale getirebilirsiniz. (Yavaşlatmak veya hızlandırmak gibi)</p>
+        
+        <p>Ben ffx dosyasını apply animation yaptım, tüm işlem bitti niye böyle gözüküyor demeden önce lütfen kendi hayal gücünüzü kullanın.</p>
 
-            <br>
-            <br>
-            You can change the color of the effects we will use. If you want, you can play with the effects on it or with s_hue, hue and other color tools.<br>
-            Adjust the center points of effects
-            And you can change the position in the effects you use or play with the settings and make it suitable for your video. (Like slowing down or speeding up)<br>
-            I applied animation to the ffx file,
-            Before you ask why the whole process looks like this, please use your own imagination.
-        </p>
+        <p style="color: rgb(255, 123, 0);">You can change the color of the effects we will use. If you want, you can play with the effects on it or with s_hue, hue and other color tools. Adjust the center points of effects and you can change the position in the effects you use or play with the settings and make it suitable for your video. (Like slowing down or speeding up)</p>
+        
+        <p style="color: rgb(255, 123, 0);"> I applied animation to the ffx file, Before you ask why the whole process looks like this, please use your own imagination.</p>
     </div>
 
     <div class="footer">
