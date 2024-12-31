@@ -160,18 +160,21 @@
         "category": "cc",
         "type": "effect"
     },
+    {
         "name": "217.aep orange v2 cc",
         "imageURL": "https://217aep.com.tr/217orangev2.jpg",
         "downloadURL": "https://217aep.com.tr/217orangev2.ffx",
         "category": "cc",
         "type": "effect"
     },
+    {
         "name": "secret cc",
         "imageURL": "https://217aep.com.tr/secretcc.jpg",
         "downloadURL": "https://217aep.com.tr/secretcc.ffx",
         "category": "cc",
         "type": "effect"
     },
+    {
         "name": "217.aep x View orange cc",
         "imageURL": "https://217aep.com.tr/217vieworange.jpg",
         "downloadURL": "https://217aep.com.tr/217xVieworangecc.ffx",
