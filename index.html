@@ -13,7 +13,6 @@
     <link rel="icon" href="logo.ico" type="image/x-icon">
     <title>217.aep Website</title>
     <style>
-        /* Genel Stil */
         body {
             font-family: Calibri, sans-serif;
             background-color: #f4f4f4;
@@ -28,7 +27,7 @@
             color: #fff;
             text-align: center;
             padding: 0px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+            position: relative; 
         }
 
         header h1 {
@@ -44,6 +43,7 @@
             justify-content: center;
             background: #333;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            position: relative; 
         }
 
         nav ul li {
@@ -55,6 +55,7 @@
             text-decoration: none;
             padding: 10px;
             display: inline-block;
+            transition: color 0.3s ease; 
         }
 
         nav ul li a:hover {
@@ -121,16 +122,16 @@
         }
 
         .linkbase {
-            text-decoration: none; /* Alt çizgi kaldırılır */
-            transition: transform 0.3s ease, color 0.3s ease; /* Hem büyüme hem de renk geçişi */
-            color: white; /* Bağlantı rengi beyaz olacak */
-            font-size: 25px; /* Yazı boyutu */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bağlantıya hafif gölge */
+            text-decoration: none; 
+            transition: transform 0.3s ease, color 0.3s ease; 
+            color: white; 
+            font-size: 25px; 
+            position: relative; top: 6px;
         }
 
         .linkbase:hover {
-            transform: scale(1.1); /* Üzerine gelindiğinde %10 büyür */
-            color: #333; /* Hover durumunda renk değişimi */
+            transform: scale(1.1); 
+            color: #333; 
         }
         .media h3 {
             position: absolute;
@@ -150,7 +151,7 @@
 
         .media:hover h3 {
             opacity: 1;
-            transform: translate(-50%, -50%) scale(1.1); /* Hoverda daha belirgin hale gelir */
+            transform: translate(-50%, -50%) scale(1.1); 
         }
 
         .video-style {
@@ -176,16 +177,45 @@
         }
         
         .video-style {
-            pointer-events: none; /* Bu, video üzerindeki tıklamaları engeller */
+            pointer-events: none; 
         }
 
         .linkbase2 {
-            text-decoration: none; /* Alt çizgi kaldırılır */
-            transition: transform 0.3s ease, color 0.3s ease; /* Hem büyüme hem de renk geçişi */
-            color: white; /* Bağlantı rengi beyaz olacak */
+            text-decoration: none; 
+            transition: transform 0.3s ease, color 0.3s ease; 
+            color: white; 
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
         }
 
+        .header-container2 {
+            position: absolute;
+            top: 50%;  
+            right: 0; 
+            transform: translateY(-50%); 
+            display: flex;
+            align-items: center;
+        }
+
+        .header-container2 img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .header-container2 span {
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .headert:hover {
+            transform: scale(1.1); 
+            color: #333; 
+        }
+
+        .headert {
+        transition: color 0.3s ease; 
+        }
     </style>
 </head>
 <body>
@@ -203,6 +233,13 @@
             <li><a href="#" class="tab-link" data-tab="shake">Shake'ler</a></li>
             <li><a href="#" class="tab-link" data-tab="ffx">Diğer FFX'ler</a></li>
         </ul>
+        <a href="https://discord.gg/cGAuPujurd  " style="text-decoration: none; color: inherit;">
+        <div style="position: absolute; top: 20px; right: 16px;">
+            <img src="C:\Users\egeuf\Desktop\isim.webp" alt="Header Fotoğrafı" width="30" height="30" style= "filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2));">
+            
+            <span class="headert" style="margin-left: 0px; font-weight: bold; font-size: 18; position: relative; top: -10px;">Discord</span>
+        </div>
+        </a>
     </nav>
 </header>
 
